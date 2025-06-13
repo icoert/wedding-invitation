@@ -1,12 +1,4 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { FaCalendarAlt, FaClock, FaMapMarkerAlt } from "react-icons/fa";
-
-type DetailCardProps = {
-  icon: React.ReactNode;
-  title: string;
-  children: React.ReactNode;
-};
 
 const LocationSection = () => {
   return (

@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
 // Import all your components
 import HeroSection from "./components/HeroSection";
 import CronologySection from "./components/CronologySection";
-import EventDetailsSection from "./components/LocaitionSection";
 import RsvpSection from "./components/RsvpSection";
 import MusicPlayer from "./components/MusicPlayer";
 import WelcomeGate from "./components/WelcomeGate";

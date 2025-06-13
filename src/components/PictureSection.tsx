@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import couplePhoto2 from "../assets/couple-photo2.jpg";
 

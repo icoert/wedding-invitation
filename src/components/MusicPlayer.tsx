@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
 import song from "../assets/song.mp3";
 
