@@ -48,7 +48,7 @@ const RsvpSection = () => {
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSffhqep70gIkbgqf3QfYvmuv_W-dNfVJFYBiTmXJPTxp2gEvw/viewform?embedded=true
 "
-                className="w-full h-[850px] rounded-lg shadow-xl"
+                className="w-full h-[1600px] rounded-lg shadow-xl"
               >
                 Încărcare…
               </iframe>

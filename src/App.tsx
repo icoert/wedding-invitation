@@ -7,7 +7,7 @@ import CronologySection from "./components/CronologySection";
 import RsvpSection from "./components/RsvpSection";
 import MusicPlayer from "./components/MusicPlayer";
 import WelcomeGate from "./components/WelcomeGate";
-import LocationSection from "./components/LocaitionSection";
+import LocationSection from "./components/LocationSection";
 import PictureSection from "./components/PictureSection";
 
 function App() {
