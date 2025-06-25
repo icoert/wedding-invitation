@@ -6,7 +6,7 @@ const HeroSection = () => {
     <motion.section
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="h-screen flex flex-col justify-center items-center text-center text-white relative bg-cover bg-no-repeat md:bg-center sm:bg-left-center"
+      className="h-screen flex flex-col p-10 justify-top items-center text-center text-white relative bg-cover bg-no-repeat md:bg-center sm:bg-left-center"
       style={{
         backgroundImage: `url(${couplePhoto})`,
         backgroundSize: "cover",
@@ -33,7 +33,7 @@ const HeroSection = () => {
           style={{
             fontFamily: "'Great Vibes', cursive",
           }}
-          className="font-heading text-6xl md:text-9xl my-4"
+          className="font-heading text-[56px] md:text-9xl my-4"
         >
           Cătălina și Silviu
         </motion.h1>
