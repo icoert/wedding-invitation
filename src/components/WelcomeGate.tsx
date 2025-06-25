@@ -17,7 +17,7 @@ const WelcomeGate = ({ onEnter }: WelcomeGateProps) => {
         transition={{ duration: 1, delay: 0.5 }}
         className="font-heading text-4xl md:text-7xl text-primary mb-4"
       >
-        Silviu și Cătălina
+        Cătălina și Silviu
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}

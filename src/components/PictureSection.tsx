@@ -6,14 +6,15 @@ const PictureSection = () => {
     <motion.section
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="w-full h-[450px] flex flex-col justify-center items-center text-center text-white relative"
+      className="w-full h-[450px] sm:h-[300px] flex flex-col justify-center items-center text-center text-white relative"
       style={{
         backgroundImage: `url(${couplePhoto2})`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition:
+          window.innerWidth < 640 ? "right center" : "center center",
+        backgroundRepeat: "no-repeat",
       }}
     />
   );
 };
-
 export default PictureSection;

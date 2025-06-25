@@ -45,7 +45,7 @@ function App() {
               marginTop: "2rem",
             }}
           >
-            Cu dragoste, Silviu și Cătălina
+            Cu dragoste, Cătălina și Silviu
           </p>
         </footer>
       </div>

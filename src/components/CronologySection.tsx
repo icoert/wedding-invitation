@@ -28,8 +28,8 @@ const timelineElements = [
   },
   {
     id: 4,
-    title: "Tortul și surprizele",
-    date: "Ora 22:00",
+    title: "Tortul",
+    date: "Ora 00:00",
     text: "Un moment dulce, luminat de zâmbete și scântei. Gustăm fericirea și descoperim mici bucurii pregătite cu drag pentru voi.",
     icon: <FaStar />,
   },
