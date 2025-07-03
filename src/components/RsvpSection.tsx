@@ -68,7 +68,7 @@ const RsvpForm = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="bg-white shadow-2xl rounded-3xl p-8 max-w-2xl mx-auto space-y-8"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-primary">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
             🎉 Confirmarea Participării
           </h2>
           <p className="text-sm text-gray-500">
