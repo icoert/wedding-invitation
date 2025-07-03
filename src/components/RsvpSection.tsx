@@ -13,6 +13,22 @@ const RsvpForm = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Basic validation
+    if (!name.trim() || !attending) {
+      alert("Vă rugăm să completați toate câmpurile obligatorii.");
+      return;
+    }
+
+    if (attending === "da") {
+      if (!numGuests || !menu) {
+        alert(
+          "Vă rugăm să completați toate câmpurile pentru confirmarea prezenței."
+        );
+        return;
+      }
+    }
+
     setLoading(true);
 
     const formData = new FormData();
@@ -43,7 +59,6 @@ const RsvpForm = () => {
       setLoading(false);
     }
   };
-
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 text-center">
