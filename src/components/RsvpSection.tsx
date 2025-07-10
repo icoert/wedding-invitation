@@ -73,7 +73,8 @@ const RsvpForm = () => {
           </h2>
           <p className="text-sm text-gray-500">
             Locație: Yaz Events Center, DJ112A, Hărman <br />
-            Contact: Silviu - 0762606448, Cătălina - 0787661792
+            Contact: Silviu - 0762606448, Cătălina - 0787661792 <br />
+            Vă rugăm confirmați prezența până la data de 15 August 2025.
           </p>
 
           <AnimatePresence>
