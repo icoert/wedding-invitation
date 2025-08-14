@@ -74,7 +74,7 @@ const RsvpForm = () => {
           <p className="text-sm text-gray-500">
             Locație: Yaz Events Center, DJ112A, Hărman <br />
             Contact: Silviu - 0762606448, Cătălina - 0787661792 <br />
-            Vă rugăm confirmați prezența până la data de 15 August 2025.
+            Vă rugăm confirmați prezența până la data de 20 August 2025.
           </p>
 
           <AnimatePresence>
@@ -219,9 +219,8 @@ const RsvpForm = () => {
                     whileTap={{ scale: 0.95 }}
                     type="submit"
                     disabled={loading}
-                    className={`bg-accent text-black px-8 py-3 rounded-full font-medium shadow-md cursor-pointer transition-all ${
-                      loading ? "animate-pulse" : ""
-                    }`}
+                    className={`bg-accent text-black px-8 py-3 rounded-full font-medium shadow-md cursor-pointer transition-all ${loading ? "animate-pulse" : ""
+                      }`}
                   >
                     {loading ? "Se trimite..." : "Trimite"}
                   </motion.button>
